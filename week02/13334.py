@@ -15,7 +15,7 @@ for road in road_info:
     if abs(house - office) <= d:
         road = sorted(road)
         roads.append(road)
-roads.sort(key=lambda x:x[1])
+roads.sort()
 
 answer = 0
 heap = []
